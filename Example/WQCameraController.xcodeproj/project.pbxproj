@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D567882C00029D9D3B99BC0 /* Pods_WQCameraController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D38192C5BE0FFD72AF52D5 /* Pods_WQCameraController_Tests.framework */; };
-		39C15C8425830DFA004D6136 /* WQCameraForPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C15C7D25830DF9004D6136 /* WQCameraForPhotoView.m */; };
-		39C15C8525830DFA004D6136 /* WQCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C15C7F25830DFA004D6136 /* WQCameraViewController.m */; };
-		39C15C8625830DFA004D6136 /* UIImage+GetImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C15C8025830DFA004D6136 /* UIImage+GetImg.m */; };
-		39C15C8725830DFA004D6136 /* WQCameraForVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C15C8325830DFA004D6136 /* WQCameraForVideoView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,14 +38,6 @@
 
 /* Begin PBXFileReference section */
 		37D38192C5BE0FFD72AF52D5 /* Pods_WQCameraController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQCameraController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C15C7C25830DF9004D6136 /* WQCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQCameraViewController.h; sourceTree = "<group>"; };
-		39C15C7D25830DF9004D6136 /* WQCameraForPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCameraForPhotoView.m; sourceTree = "<group>"; };
-		39C15C7E25830DF9004D6136 /* UIImage+GetImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetImg.h"; sourceTree = "<group>"; };
-		39C15C7F25830DFA004D6136 /* WQCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCameraViewController.m; sourceTree = "<group>"; };
-		39C15C8025830DFA004D6136 /* UIImage+GetImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetImg.m"; sourceTree = "<group>"; };
-		39C15C8125830DFA004D6136 /* WQCameraForPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQCameraForPhotoView.h; sourceTree = "<group>"; };
-		39C15C8225830DFA004D6136 /* WQCameraForVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQCameraForVideoView.h; sourceTree = "<group>"; };
-		39C15C8325830DFA004D6136 /* WQCameraForVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCameraForVideoView.m; sourceTree = "<group>"; };
 		55C8DE8289C6D47F4C2E8E2D /* Pods-WQCameraController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCameraController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WQCameraController_Tests/Pods-WQCameraController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WQCameraController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQCameraController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -160,14 +148,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WQViewController.h */,
 				6003F5A6195388D20070C39A /* WQViewController.m */,
-				39C15C8125830DFA004D6136 /* WQCameraForPhotoView.h */,
-				39C15C7D25830DF9004D6136 /* WQCameraForPhotoView.m */,
-				39C15C8225830DFA004D6136 /* WQCameraForVideoView.h */,
-				39C15C8325830DFA004D6136 /* WQCameraForVideoView.m */,
-				39C15C7C25830DF9004D6136 /* WQCameraViewController.h */,
-				39C15C7F25830DFA004D6136 /* WQCameraViewController.m */,
-				39C15C7E25830DF9004D6136 /* UIImage+GetImg.h */,
-				39C15C8025830DFA004D6136 /* UIImage+GetImg.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -408,11 +388,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WQAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WQViewController.m in Sources */,
-				39C15C8625830DFA004D6136 /* UIImage+GetImg.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				39C15C8725830DFA004D6136 /* WQCameraForVideoView.m in Sources */,
-				39C15C8425830DFA004D6136 /* WQCameraForPhotoView.m in Sources */,
-				39C15C8525830DFA004D6136 /* WQCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
