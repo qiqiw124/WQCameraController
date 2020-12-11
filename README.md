@@ -1,6 +1,6 @@
 # WQCameraController
 
-[![CI Status](https://img.shields.io/travis/01810452/WQCameraController.svg?style=flat)](https://travis-ci.org/01810452/WQCameraController)
+[![CI Status](https://img.shields.io/travis/YUER/WQCameraController.svg?style=flat)](https://travis-ci.org/YUER/WQCameraController)
 [![Version](https://img.shields.io/cocoapods/v/WQCameraController.svg?style=flat)](https://cocoapods.org/pods/WQCameraController)
 [![License](https://img.shields.io/cocoapods/l/WQCameraController.svg?style=flat)](https://cocoapods.org/pods/WQCameraController)
 [![Platform](https://img.shields.io/cocoapods/p/WQCameraController.svg?style=flat)](https://cocoapods.org/pods/WQCameraController)
@@ -22,7 +22,7 @@ pod 'WQCameraController'
 
 ## Author
 
-01810452, wangqiqi@smt.cn
+YUER, qiqiw124@163.com
 
 ## License
 

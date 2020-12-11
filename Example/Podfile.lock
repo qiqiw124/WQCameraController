@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WQCameraController (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WQCameraController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WQCameraController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WQCameraController: bafd2e1db830a13d90c5f12fca93bda06eb93b50
+
+PODFILE CHECKSUM: 90b86b53fc808fd42331fa4526ab22ac5559dc13
+
+COCOAPODS: 1.9.3

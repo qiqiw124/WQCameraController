@@ -1,0 +1,6 @@
+framework module Pods_WQCameraController_Tests {
+  umbrella header "Pods-WQCameraController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

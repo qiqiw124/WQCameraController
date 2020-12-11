@@ -1,0 +1,6 @@
+framework module Pods_WQCameraController_Example {
+  umbrella header "Pods-WQCameraController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
